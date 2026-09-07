@@ -50,6 +50,10 @@ npm run build
 | הרצה | מתוך `web/`: `vercel deploy --prod --scope tmx-aa90` |
 | חיבור מקומי | `web/.vercel/project.json`, מחוץ ל-Git |
 
+**הגנת דיפלוי.** ברירת המחדל של ה-Team היא Vercel Authentication, שמפנה כל
+מבקר למסך התחברות של Vercel. היא כובתה לפרויקט הזה ב-7 בספטמבר 2026 כדי
+שהאתר יהיה פתוח. Preview deployments של ענפים יירשו את אותה הגדרה.
+
 **חיבור Git אוטומטי עדיין לא פעיל.** `vercel git connect` נכשל, כנראה כי
 אפליקציית GitHub של Vercel לא מותקנת על ה-Team. עד שזה יוסדר, דיפלוי הוא
 ידני בפקודה שלמעלה. כשמחברים, יש להגדיר Root Directory = `web`.
